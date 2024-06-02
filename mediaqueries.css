@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 4096px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -10,6 +10,9 @@
   #contact,
   #projects {
     height: fit-content;
+  }
+  .text-container {
+    text-align: justify;
   }
 }
 
@@ -45,6 +48,9 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .text-container {
+    text-align: justify;
   }
 }
 
