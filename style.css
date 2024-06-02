@@ -406,7 +406,7 @@ article .icon {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
-  padding-right: 0.5rem;
+  padding: 0.25rem 0.5rem 0.25rem 0rem;
 }
 
 .contact-info-container p {
@@ -417,7 +417,10 @@ article .icon {
   cursor: default;
 }
 
-.email-icon {
+.email-icon,
+.linkedin-icon,
+.youtube-icon,
+.facebook-icon {
   height: 2.5rem;
 }
 
