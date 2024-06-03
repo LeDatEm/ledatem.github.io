@@ -175,6 +175,12 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.profile-pic {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-radius: 50%; /* Bo tròn ảnh theo kiểu hình tròn */
+
+  object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ phần tử và giữ tỷ lệ khung hình */
+}
 
 .section__text {
   align-self: center;
