@@ -248,16 +248,33 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.btn-color-3,
+.btn-color-4 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, border-color 1s;
 }
 
-.btn-color-2 {
-  background: none;
+.btn-color-3:hover,
+.btn-color-4:hover {
+  background-color: rgb(228, 228, 228);
 }
+/* .btn-color-2 {
+  background: none;
+} */
 
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
@@ -397,6 +414,7 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
+  align-items: start;
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -421,6 +439,9 @@ article .icon {
 
 .contact-icon {
   cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .email-icon,
