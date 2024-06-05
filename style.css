@@ -425,12 +425,13 @@ article .icon {
 }
 
 .contact-info-container {
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
-  padding: 0.25rem 0.5rem 0.25rem 0rem;
+  padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
 .contact-info-container p {

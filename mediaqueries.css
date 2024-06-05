@@ -76,6 +76,7 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
+    justify-content: flex-start;
     margin: 0;
   }
   .contact-info-container p,
